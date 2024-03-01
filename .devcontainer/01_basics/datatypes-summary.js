@@ -33,3 +33,28 @@ let myObj = {
 const myFunction = function(){
     console.log("hello world");
 }
+
+
+// +++++++++++++++++++++++++++++++++++++++
+
+// stack(Primitive) copy, Heap (Non-Primitive)
+
+let myName = "devesh"
+
+let anothername = myName
+anothername = "dinu"
+
+console.log(myName);
+console.log(anothername);
+
+let userone = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userone
+userTwo.email = "dinu01@gmai.com"
+
+console.log(userone.email);
+console.log(userTwo.email);
+
